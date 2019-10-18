@@ -1,0 +1,17 @@
+{
+  "name": "botoranget-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "onedayl <onedayleung@gmail.com> (https://github.com/onedayl)",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "8.0.2",
+    "koa": "2.10.0",
+    "koa-bodyparser": "4.2.1"
+  }
+}
