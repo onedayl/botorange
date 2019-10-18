@@ -6,10 +6,10 @@ const app = new Koa()
 const router = new Router()
 
 router
-  .get('/', ctx => {
+  .get('/', async ctx => {
     ctx.body = 'index'
   })
-  .post('/message', ctx => {
+  .post('/message', async ctx => {
     console.log(ctx.request.body)
     ctx.body = 'message'
 }) 
